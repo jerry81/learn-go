@@ -11,9 +11,9 @@ go run ./cmd/learn-go
 
 ## What to study first
 
-- Variables and functions: `/home/runner/work/learn-go/learn-go/basics/basics.go`
-- Common control flow in tests: `/home/runner/work/learn-go/learn-go/basics/basics_test.go`
-- Small runnable example app: `/home/runner/work/learn-go/learn-go/cmd/learn-go/main.go`
+- Variables and functions: `basics/basics.go`
+- Common control flow in tests: `basics/basics_test.go`
+- Small runnable example app: `cmd/learn-go/main.go`
 
 ## Learning checklist
 
