@@ -2,6 +2,7 @@
 
 ## topics
 
+- getting started - install latest, build and run programs, learn package manager
 - review
   - syntax
   - control flow
