@@ -30,6 +30,22 @@ or
 
 1.  go run <filename>
 
+## manage packages
+
+- package manager built into go itself
+- go.mod, go.sum
+```
+go get github.com/gin-gonic/gin@v1.10.0   # add/upgrade a dep (edits go.mod)
+go mod tidy                                # sync go.mod/go.sum with actual imports (run this often)
+go mod download                            # fetch deps into module cache
+go mod verify                              # check checksums
+go list -m all
+```
+
+1.  write code that has import
+2.  go mod init <module name> (creates go.mod)
+3.  go mod tidy (creates go.sum and downloads deps)
+
 ## troubleshooting
 
 - problem: wrong version, even after using goenv use
