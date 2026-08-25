@@ -17,7 +17,7 @@ func main() {
 	// We can add more than one element at a time.
 	s = append(s, 2, 3, 4)
 	s2 := make([]int, len(s))
-	for i, v := range s {
+	for i, v := range s { // range iterates slice, can omit i or v by replacing with _
 		s2[i] = v * 2
 	}
 	printSlice(s2)
