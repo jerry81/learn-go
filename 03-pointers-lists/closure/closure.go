@@ -19,3 +19,5 @@ func main() {
 		)
 	}
 }
+
+// closure is like a function with memory
