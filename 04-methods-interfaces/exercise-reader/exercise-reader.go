@@ -14,3 +14,7 @@ func (r MyReader) Read(b []byte) (int, error) {
 func main() {
 	reader.Validate(MyReader{})
 }
+
+// this was a reading check:
+// Read - the interface method we are focusing on, takes in slice
+// implementation: populate slice with data, return number of bytes read and error if any
